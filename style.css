@@ -17,6 +17,14 @@ body {background-image:url(./images/fondo7.jpg);
     "footer footer";
 }
 
+ul li a {
+    transition:color 0.5s ease-out
+}
+a:hover {
+    color: rgb(229, 211, 211);
+
+}
+
 .header{
     grid-area: header;
 }
@@ -60,6 +68,11 @@ body {background-image:url(./images/fondo7.jpg);
 
 .section {
     grid-area:  h2;
+
+.link{
+    padding: 0px;
+    width: 1920px;
+}    
     
 }
 
@@ -139,6 +152,10 @@ body {background-image:url(./images/fondo7.jpg);
         grid-area:  h2;
         
         
+    }
+    
+    .link{
+        width: 320px;
     }
     
 };
